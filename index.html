@@ -17,6 +17,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- //for-mobile-apps -->
 <!--fonts-->
 <link href='//fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lobster" />
+<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
 <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
 <!--//fonts-->
 <!-- js -->
@@ -25,7 +27,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js/bootstrap.min.js"></script>
 <script src="js/bootstrap-select.js"></script>
-<script>
+<script type="text/jquery">
   $(document).ready(function () {
     var mySelect = $('#first-disabled2');
 
@@ -61,16 +63,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
 
 
-<!-- Important Owl stylesheet -->
-<link rel="stylesheet" href="owl-carousel/owl.carousel.css">
-
-<!-- Default Theme -->
-<link rel="stylesheet" href="owl-carousel/owl.theme.css">
-
-<!--  jQuery 1.7+  -->
-<script src="jquery-1.9.1.min.js"></script>
-
-<!-- Include js plugin -->
 <style>  .form{
     position: absolute;
     top: 10%;
@@ -112,7 +104,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
    width: 300px;
 }
 
-  #name
+   #name1,#name2,#name3,#name4
   {
   	width:45%
   }
@@ -211,7 +203,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     width: 300px;
  }
 
-   #name
+   #name1,#name2,#name3,#name4
    {
      width:100%
    }
@@ -261,7 +253,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="header">
 		<div class="container">
 			<div class="logo">
-				<a href="index.html"><span>Re</span>sale</a> <!--#insert logo image-->
+				<a href="index.html"><img src="images/logo.png" alt="Image not found"></a> <!--#insert logo image-->
 			</div>
 			<div class="header-right">
 			<button class="account"  onclick="document.getElementById('id01').style.display='block'" style="width:auto;">My Account</button>
@@ -286,12 +278,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
           <form class="register" method="post" action="register_controller">
             <input type="text" placeholder="Enter Email " name="email" required>
-            <input type="text" placeholder="Enter first name " name="fname" id="name" required>
-            <input type="text" placeholder="Enter last name " name="lname" id="name" required>
+            <input type="text" placeholder="Enter first name " name="fname" id="name1" required>
+            <input type="text" placeholder="Enter last name " name="lname" id="name2" required>
             <input type="date" placeholder="Enter D.O.B. " name="dob" id="dob" required>
             <input type="number" placeholder="Enter Phone Number " name="phone_number" id="phone" required>
-            <input type="text" placeholder="Enter City" name="city" id="name" required>
-            <input type="text" placeholder="Enter State" name="state" id="name" required>
+            <input type="text" placeholder="Enter City" name="city" id="name3" required>
+            <input type="text" placeholder="Enter State" name="state" id="name4" required>
             <input type="password" placeholder="Enter Password" name="password" required>
             <input type="password" placeholder="Confirm Password" name="cpassword" required>
             <input type="submit" value="submit">
@@ -633,9 +625,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 			<div class="footer-bottom text-center">
 			<div class="container">
-				<div class="footer-logo">
-					<a href="index.html"><span>Re</span>sale</a>
-				</div>
+        <div class="footer-logo">
+  					<a href="index.html"><span><i>one</i></span> Touch</a>
+  				</div>
 				<div class="footer-social-icons">
 					<ul>
 						<li><a class="facebook" href="#"><span>Facebook</span></a></li>
