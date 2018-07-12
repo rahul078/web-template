@@ -1,0 +1,531 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Resale a Business Category Flat Bootstrap Responsive Website Template | Contact :: w3layouts</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap-select.css">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Resale Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<!--fonts-->
+<link href='//fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<!--//fonts-->
+<!-- js -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<!-- js -->
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap-select.js"></script>
+<script>
+  $(document).ready(function () {
+    var mySelect = $('#first-disabled2');
+
+    $('#special').on('click', function () {
+      mySelect.find('option:selected').prop('disabled', true);
+      mySelect.selectpicker('refresh');
+    });
+
+    $('#special2').on('click', function () {
+      mySelect.find('option:disabled').prop('disabled', false);
+      mySelect.selectpicker('refresh');
+    });
+
+    $('#basic2').selectpicker({
+      liveSearch: true,
+      maxOptions: 1
+    });
+  });
+</script>
+<script type="text/javascript" src="js/jquery.leanModal.min.js"></script>
+<link href="css/jquery.uls.css" rel="stylesheet"/>
+<link href="css/jquery.uls.grid.css" rel="stylesheet"/>
+<link href="css/jquery.uls.lcd.css" rel="stylesheet"/>
+<!-- Source -->
+<script src="js/jquery.uls.data.js"></script>
+<script src="js/jquery.uls.data.utils.js"></script>
+<script src="js/jquery.uls.lcd.js"></script>
+<script src="js/jquery.uls.languagefilter.js"></script>
+<script src="js/jquery.uls.regionfilter.js"></script>
+<script src="js/jquery.uls.core.js"></script>
+<script>
+			$( document ).ready( function() {
+				$( '.uls-trigger' ).uls( {
+					onSelect : function( language ) {
+						var languageName = $.uls.data.getAutonym( language );
+						$( '.uls-trigger' ).text( languageName );
+					},
+					quickList: ['en', 'hi', 'he', 'ml', 'ta', 'fr'] //FIXME
+				} );
+			} );
+		</script>
+		<link rel="stylesheet" type="text/css" href="css/easy-responsive-tabs.css " />
+    <script src="js/easyResponsiveTabs.js"></script>
+
+    <style>  .form{
+        position: absolute;
+        top: 10%;
+        left:30%;
+        z-index: 1;
+        background: #01a185;
+        width: 35%;
+        margin: 0 auto 100px;
+        padding: 45px;
+        text-align: center;
+        box-shadow: 15px 15px 15px lightblue;
+      }
+      .form input[type=text],input[type=password],input[type=date],input[type=number]{
+        background: #f2f2f2;
+        width: 100%;
+        border: 0;
+        margin: 0 0 15px;
+        padding: 15px;
+        border-radius: 200px;
+      }
+      select#soflow, select#soflow-color {
+       -webkit-appearance: button;
+       -webkit-border-radius: 2px;
+       -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+       -webkit-padding-end: 20px;
+       -webkit-padding-start: 2px;
+       -webkit-user-select: none;
+       background-image: url(http://i62.tinypic.com/15xvbd5.png), -webkit-linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
+       background-position: 97% center;
+       background-repeat: no-repeat;
+       border: 1px solid #AAA;
+       color: #555;
+       font-size: inherit;
+       margin: 20px;
+       overflow: hidden;
+       padding: 5px 10px;
+       text-overflow: ellipsis;
+       white-space: nowrap;
+       width: 300px;
+    }
+
+      #name
+      {
+      	width:45%
+      }
+      #dob
+      {
+      width:40%;
+      }
+      #phone
+      {
+      width:57%
+      }
+      .form input[type=submit]
+      {
+        background-color: rgba(7,50,195,0.8);
+          border: none;
+          color: white;
+          padding: 12px 30px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 4px 2px;
+          border-radius: 20px;
+      }
+        .form input[type=submit]:hover
+        {
+          background-color: rgba(7,20,200,0.8);
+          font-weight: bold;
+        }
+      .form .register{
+        display: none;
+      }
+      .avatar
+      {
+     width:65%;
+      height:65%;
+       align:center;
+       border : 2px solid white;
+       border-radius: 100%;
+
+      }
+      .modal{
+      background: rgba(0, 0, 0, 0.5);
+
+      }
+    .message
+    {
+      font-size: 18px;
+      color:white;
+    }
+    .message a
+    {
+      color:black;
+    }
+    @media screen and (max-width: 1100px){
+      .modal{
+      align-self:  center;
+      background: rgba(0, 0, 0, 0.5);
+      }
+      .form{
+        position:absolute;
+        left:5%;
+        top :5%;
+         z-index: 1;
+         background: #01a185;
+         width: 90%;
+        padding: 10%;
+         text-align: center;
+         box-shadow: none;
+       }
+       .form input[type=text],input[type=password],input[type=date],input[type=number]{
+         background: #f2f2f2;
+         width: 100%;
+         border: 0;
+
+         padding: 1.5%;
+       }
+       select#soflow, select#soflow-color {
+        -webkit-appearance: button;
+        -webkit-border-radius: 2px;
+        -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+        -webkit-padding-end: 20px;
+        -webkit-padding-start: 2px;
+        -webkit-user-select: none;
+        background-image: url(http://i62.tinypic.com/15xvbd5.png), -webkit-linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
+        background-position: 97% center;
+        background-repeat: no-repeat;
+        border: 1px solid #AAA;
+        color: #555;
+        font-size: inherit;
+        margin: 20px;
+        overflow: hidden;
+        padding: 5px 10px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 300px;
+     }
+
+       #name
+       {
+         width:100%
+       }
+       #dob
+       {
+       width:100%;
+       }
+       #phone
+       {
+       width:100%
+       }
+       .form input[type=submit]
+       {
+         background-color: rgba(7,50,195,0.8);
+           border: none;
+           color: white;
+           padding: 12px 30px;
+           text-align: center;
+           text-decoration: none;
+           display: inline-block;
+           font-size: 16px;
+           margin: 4px 2px;
+           border-radius: 20px;
+       }
+         .form input[type=submit]:hover
+         {
+           background-color: rgba(7,20,200,0.8);
+           font-weight: bold;
+         }
+       .form .register{
+         display: none;
+       }
+       .avatar
+       {
+      width:65%;
+       height:65%;
+        align:center;
+        border : 2px solid white;
+        border-radius: 100%;
+
+       }
+    }
+    </style>
+</head>
+<body>
+	<div class="header">
+		<div class="container">
+			<div class="logo">
+				<a href="index.html"><span>Re</span>sale</a> <!--#insert logo image-->
+			</div>
+			<div class="header-right">
+			<button class="account"  onclick="document.getElementById('id01').style.display='block'" style="width:auto;">My Account</button>
+      <div id="id01" class="modal">
+
+        <!-- Below code to view and asynchronously load logib and registration forms -->
+
+        <div class="page">
+        <div class="form">
+          <span style="float:right" onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+
+          <form class="Login" method="post" action="login_controller">
+          <img class="avatar" src="images/login.jpg" alt="Image not found">
+            <br />
+            <br/>
+            <input type="text" placeholder="Enter Email" name="email" required>
+            <input type="password" placeholder="Enter Password" name="password" required>
+            <input type="submit" value="submit">
+            <p class="message">If not registered <a href="#">Click here</a></p>
+          </form>
+
+
+          <form class="register" method="post" action="register_controller">
+            <input type="text" placeholder="Enter Email " name="email" required>
+            <input type="text" placeholder="Enter first name " name="fname" id="name" required>
+            <input type="text" placeholder="Enter last name " name="lname" id="name" required>
+            <input type="date" placeholder="Enter D.O.B. " name="dob" id="dob" required>
+            <input type="number" placeholder="Enter Phone Number " name="phone_number" id="phone" required>
+            <input type="text" placeholder="Enter City" name="city" id="name" required>
+            <input type="text" placeholder="Enter State" name="state" id="name" required>
+            <input type="password" placeholder="Enter Password" name="password" required>
+            <input type="password" placeholder="Confirm Password" name="cpassword" required>
+            <input type="submit" value="submit">
+            <p class="message">If Already Registered <a href="#">Click here</a></p>
+          </form>
+        </div>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript">
+          $('p a').click(function(){
+          $('form').animate({height: "toggle" ,opacity: "toggle"}, "slow");
+        });
+        </script>
+
+      <script>
+      // Get the modal
+      var modal = document.getElementById('id01');
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+          if (event.target == modal) {
+              modal.style.display = "none";
+          }
+      }
+      </script>
+
+
+    </div>
+		</div>
+	</div>
+	<!-- Terms of use -->
+	<div class="contact main-grid-border">
+		<div class="container">
+			<h2 class="head text-center">Contact Us</h2>
+			<section id="hire">
+				<form id="filldetails">
+					  <div class="field name-box">
+							<input type="text" id="names" placeholder="Who Are You?"/>
+							<label for="names">Name</label>
+							<span class="ss-icon">check</span>
+					  </div>
+
+					  <div class="field email-box">
+							<input type="text" id="email" placeholder="example@email.com"/>
+							<label for="email">Email</label>
+							<span class="ss-icon">check</span>
+					  </div>
+
+					  <div class="field ad-ID">
+							<input type="text" id="email" placeholder="SUBJECT"/>
+							<label for="email">SUBJECT</label>
+							<span class="ss-icon">check</span>
+					  </div>
+
+					  <div class="field phonenum-box">
+							<input type="text" id="email" placeholder="Phone Number"/>
+							<label for="email">Phone</label>
+							<span class="ss-icon">check</span>
+					  </div>
+
+					  <div class="field msg-box">
+							<textarea id="msg" rows="4" placeholder="Your message goes here..."/></textarea>
+							<label for="msg">Your Msg</label>
+							<span class="ss-icon">check</span>
+					  </div>
+
+
+			  </form>
+			<div class="upload">
+						 <h3 class="tlt">Add Attachment:</h3>
+						<form id="upload" method="post" action="upload.php" enctype="multipart/form-data">
+			<div id="drop">
+				<a>Choose file</a>
+				<input type="file" name="upl" multiple />
+			</div>
+
+			<ul class="show">
+				<!-- The file uploads will be shown here -->
+			</ul>
+		</form>
+		<div class="clear"></div>
+		<form class="submit">
+		<input class="button" type="submit" value="Send" />
+		</form>
+		<!-- JavaScript Includes -->
+		<script src="js/jquery.knob.js"></script>
+
+		<!-- jQuery File Upload Dependencies -->
+		<script src="js/jquery.ui.widget.js"></script>
+		<script src="js/jquery.fileupload.js"></script>
+
+		<!-- Our main JS file -->
+		<script src="js/script.js"></script>
+						</div>
+			</section>
+			<script>
+				  $('textarea').blur(function () {
+				$('#hire textarea').each(function () {
+					$this = $(this);
+					if (this.value != '') {
+						$this.addClass('focused');
+						$('textarea + label + span').css({ 'opacity': 1 });
+					} else {
+						$this.removeClass('focused');
+						$('textarea + label + span').css({ 'opacity': 0 });
+					}
+				});
+			});
+			$('#hire .field:first-child input').blur(function () {
+				$('#hire .field:first-child input').each(function () {
+					$this = $(this);
+					if (this.value != '') {
+						$this.addClass('focused');
+						$('.field:first-child input + label + span').css({ 'opacity': 1 });
+					} else {
+						$this.removeClass('focused');
+						$('.field:first-child input + label + span').css({ 'opacity': 0 });
+					}
+				});
+			});
+			$('#hire .field:nth-child(2) input').blur(function () {
+				$('#hire .field:nth-child(2) input').each(function () {
+					$this = $(this);
+					if (this.value != '') {
+						$this.addClass('focused');
+						$('.field:nth-child(2) input + label + span').css({ 'opacity': 1 });
+					} else {
+						$this.removeClass('focused');
+						$('.field:nth-child(2) input + label + span').css({ 'opacity': 0 });
+					}
+				});
+			});
+			$('#hire .field:nth-child(3) input').blur(function () {
+				$('#hire .field:nth-child(3) input').each(function () {
+					$this = $(this);
+					if (this.value != '') {
+						$this.addClass('focused');
+						$('.field:nth-child(3) input + label + span').css({ 'opacity': 1 });
+					} else {
+						$this.removeClass('focused');
+						$('.field:nth-child(3) input + label + span').css({ 'opacity': 0 });
+					}
+				});
+			});
+			$('#hire .field:nth-child(4) input').blur(function () {
+				$('#hire .field:nth-child(4) input').each(function () {
+					$this = $(this);
+					if (this.value != '') {
+						$this.addClass('focused');
+						$('.field:nth-child(4) input + label + span').css({ 'opacity': 1 });
+					} else {
+						$this.removeClass('focused');
+						$('.field:nth-child(4) input + label + span').css({ 'opacity': 0 });
+					}
+				});
+			});
+		  //@ sourceURL=pen.js
+		</script>
+		<script>
+	  if (document.location.search.match(/type=embed/gi)) {
+		window.parent.postMessage("resize", "*");
+	  }
+	</script>
+		</div>
+	</div>
+	<!-- // Terms of use -->
+  <!--footer section start-->
+  <footer>
+    <div class="footer-top">
+      <div class="container">
+        <div class="foo-grids">
+          <div class="col-md-3 footer-grid">
+            <h4 class="footer-head">Who We Are</h4>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            <p>The purpose of this website is to provide various types of on hand services just by a click.</p>
+
+ </div>
+          <div class="col-md-3 footer-grid">
+            <h4 class="footer-head">Help</h4>
+            <ul>
+              <li><a href="#">How it Works</a></li>
+              <li><a href="#">Sitemap</a></li>
+              <li><a href="#">Feedback</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 footer-grid">
+            <h4 class="footer-head">Information</h4>
+            <ul>
+              <li><a href="#">Locations Map</a></li>
+              <li><a href="#">Terms of Use</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 footer-grid">
+            <h4 class="footer-head">Contact Us</h4>
+
+            <address>
+              <ul class="location">
+                <li><span class="glyphicon glyphicon-map-marker"></span></li>
+                <li>Office address</li>
+                <div class="clearfix"></div>
+              </ul>
+              <ul class="location">
+                <li><span class="glyphicon glyphicon-earphone"></span></li>
+                <li>+91 ---- --- ---</li>
+                <div class="clearfix"></div>
+              </ul>
+              <ul class="location">
+                <li><span class="glyphicon glyphicon-envelope"></span></li>
+                <li><a href="#">mail@example.com</a></li>
+                <div class="clearfix"></div>
+              </ul>
+            </address>
+
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom text-center">
+    <div class="container">
+      <div class="footer-logo">
+        <a href="index.html"><span>Re</span>sale</a>
+      </div>
+      <div class="footer-social-icons">
+        <ul>
+          <li><a class="facebook" href="#"><span>Facebook</span></a></li>
+          <li><a class="twitter" href="#"><span>Twitter</span></a></li>
+          <li><a class="googleplus" href="#"><span>Google+</span></a></li>
+        </ul>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+  </footer>
+      <!--footer section end-->
+</body>
+</html>
